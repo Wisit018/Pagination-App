@@ -47,3 +47,26 @@ h1{
   text-align: center;
   color: #fff;
 }
+
+.pagination-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.page-btn{
+  width: 2rem;
+  height: 2rem;
+  background: lightblue;
+  border-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0.5rem;
+  box-shadow: 0 0 28px 4px rgba(127, 129, 243, 0.966);
+}
+
+.active-btn{
+  background: darkblue;
+  color: white;
+}
